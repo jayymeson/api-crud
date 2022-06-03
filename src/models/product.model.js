@@ -12,6 +12,6 @@ const ProductSchema = new Schema(
   { versionKey: false },
 );
 
-const Product = model('catalog_jersey', ProductSchema);
+const Product = model('catalog_jerseys', ProductSchema);
 
 export default Product;
