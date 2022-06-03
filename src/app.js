@@ -11,6 +11,6 @@ app.get('/', (req, res) => {
   return res.send('Hello World');
 });
 
-app.use('/all-product', productRouter);
+app.use('/product', productRouter);
 
 export default app;
