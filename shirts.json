@@ -1,0 +1,20 @@
+[
+    {
+      "club": "Flamengo 2022/2023",
+      "description": "Quam vulputate dignissim suspendisse in est ante in nibh mauris.",
+      "img": "https://photo.yupoo.com/alisports/b6c9a7a0/892d20f3.jpg",
+      "price": 250.00
+    },
+    {
+      "club": "Rangers 2022/2023",
+      "description": "Quam vulputate dignissim suspendisse in est ante in nibh mauris.",
+      "img": "https://photo.yupoo.com/alisports/672a83f0/c2e6e8ed.jpg",
+      "price": 250.00
+    },
+    {
+      "club": "Milan 2022/2023",
+      "description": "Quam vulputate dignissim suspendisse in est ante in nibh mauris.",
+      "img": "https://photo.yupoo.com/alisports/90dc81cb/c5dde4d2.jpg",
+      "price": 250.00
+    }
+  ]
