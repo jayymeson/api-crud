@@ -1,6 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import productRouter from './routers/product.routes';
+import usersRouter from './routers/users.routes';
 
 const app = express();
 
@@ -12,5 +13,6 @@ app.get('/', (req, res) => {
 });
 
 app.use('/product', productRouter);
+app.use('/users', usersRouter)
 
 export default app;
