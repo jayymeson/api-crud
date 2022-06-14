@@ -1,4 +1,4 @@
-import Users from '../models/users.model';
+import Users from '../models/users.model.js';
 import mongoose from 'mongoose';
 
 const checkIdOfUsers = async (req, res, next) => {

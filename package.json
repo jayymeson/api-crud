@@ -2,6 +2,7 @@
   "name": "api-crud",
   "version": "1.0.0",
   "main": "./src/server.js",
+  "type": "module",
   "scripts": {
     "start": "node src/server",
     "dev": "nodemon src/server"
@@ -18,8 +19,7 @@
     "mongoose": "^6.3.5"
   },
   "devDependencies": {
-    "nodemon": "^2.0.16",
-    "sucrase": "^3.21.0"
+    "nodemon": "^2.0.16"
   },
   "description": ""
 }

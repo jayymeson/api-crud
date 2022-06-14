@@ -1,5 +1,4 @@
-import { use } from 'express/lib/application';
-import UsersService from '../services/users.services';
+import UsersService from '../services/users.services.js';
 
 const usersService = new UsersService();
 
@@ -63,7 +62,7 @@ class UsersControllers {
 
     const users = await usersService.deleteUsers({ id });
 
-    res.status(200).send(users)
+    res.status(200).send(users);
   }
 }
 export default UsersControllers;
