@@ -2,19 +2,19 @@
     {
       "club": "Flamengo 2022/2023",
       "description": "Quam vulputate dignissim suspendisse in est ante in nibh mauris.",
-      "img": "./assets/img/flamengo.jpg",
+      "img": "https://i.imgur.com/SopD3dQ.png",
       "price": 250.00
     },
     {
       "club": "Chelsea 2022/2023",
       "description": "Quam vulputate dignissim suspendisse in est ante in nibh mauris.",
-      "img": "./assets/img/chelsea.jpg",
+      "img": "https://i.imgur.com/6WfUqvi.png",
       "price": 250.00
     },
     {
       "club": "Milan 2022/2023",
       "description": "Quam vulputate dignissim suspendisse in est ante in nibh mauris.",
-      "img": "./assets/img/milan.jpg",
+      "img": "https://i.imgur.com/Y1t6CMm.png",
       "price": 250.00
     }
   ]

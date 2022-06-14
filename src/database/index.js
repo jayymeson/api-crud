@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 
 const conectDataBase = () => {
   mongoose
-    .connect('mongodb://localhost:27017/jerseys', {
+    .connect(process.env.DATABASE_URL, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     })

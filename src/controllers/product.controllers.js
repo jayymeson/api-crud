@@ -60,7 +60,7 @@ class ProductControllers {
   }
 
   async deleteProduct(req, res) {
-    const id = req.params.body;
+    const id = req.params.id;
 
     const product = await productServices.deleteProduct({ id });
 

@@ -56,6 +56,7 @@ class ProductServices {
     const product = await Product.findByIdAndDelete(id);
 
     return product;
+    
   }
 }
 
